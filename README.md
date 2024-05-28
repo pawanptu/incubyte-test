@@ -1,6 +1,6 @@
 # incubyte-test
 
-# Steps to Run
+# Steps to Run Code
 
 1. Clone the code
 
