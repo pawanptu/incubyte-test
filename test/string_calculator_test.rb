@@ -22,8 +22,8 @@ class StringCalculatorTest < Minitest::Test
         assert_equal 10, StringCalculator.add("2,3,5")
     end   
     
-    def test_multiple_numbers
-        assert_equal 6, StringCalculator.add("1,2,3")
-        assert_equal 10, StringCalculator.add("2,3,5")
-      end      
+    def test_new_lines_between_numbers
+        assert_equal 6, StringCalculator.add("1\n2,3")
+        assert_equal 10, StringCalculator.add("2,3\n5")
+    end   
 end
